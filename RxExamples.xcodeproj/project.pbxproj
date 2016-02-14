@@ -13,6 +13,8 @@
 		2004BC9F1C7111400054D80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2004BC9E1C7111400054D80E /* Assets.xcassets */; };
 		2004BCA21C7111400054D80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2004BCA01C7111400054D80E /* LaunchScreen.storyboard */; };
 		2004BCAD1C7111400054D80E /* RxExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004BCAC1C7111400054D80E /* RxExamplesTests.swift */; };
+		2004BCB81C71130D0054D80E /* ExampleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004BCB71C71130D0054D80E /* ExampleMap.swift */; };
+		20B60A7B1C7114F5001E52AA /* ExampleFlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B60A7A1C7114F5001E52AA /* ExampleFlatMap.swift */; };
 		5A24CEE26CD971D94FB9E7AD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16C15A6B2827E0B30F0CEDB /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		2004BCA81C7111400054D80E /* RxExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2004BCAC1C7111400054D80E /* RxExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxExamplesTests.swift; sourceTree = "<group>"; };
 		2004BCAE1C7111400054D80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2004BCB71C71130D0054D80E /* ExampleMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleMap.swift; sourceTree = "<group>"; };
+		20B60A7A1C7114F5001E52AA /* ExampleFlatMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleFlatMap.swift; sourceTree = "<group>"; };
 		92C5854B7B5580595B1311B6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C16C15A6B2827E0B30F0CEDB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,6 +94,8 @@
 				2004BC9E1C7111400054D80E /* Assets.xcassets */,
 				2004BCA01C7111400054D80E /* LaunchScreen.storyboard */,
 				2004BCA31C7111400054D80E /* Info.plist */,
+				2004BCB71C71130D0054D80E /* ExampleMap.swift */,
+				20B60A7A1C7114F5001E52AA /* ExampleFlatMap.swift */,
 			);
 			path = RxExamples;
 			sourceTree = "<group>";
@@ -272,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B60A7B1C7114F5001E52AA /* ExampleFlatMap.swift in Sources */,
 				2004BC9A1C7111400054D80E /* ViewController.swift in Sources */,
 				2004BC981C7111400054D80E /* AppDelegate.swift in Sources */,
+				2004BCB81C71130D0054D80E /* ExampleMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
