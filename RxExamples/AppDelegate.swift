@@ -19,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Map Example
         exampleSimpleMap()
         
+        // FlatMap Example
+        exampleSimpleFlatMap()
+        
         return true
     }
 
